@@ -1,0 +1,86 @@
+body {
+    background-color: #4a4a4c;
+    margin: 0;
+    padding: 0;
+}
+
+.subscription__container {
+    text-align: center;
+    padding: 30px 50px;
+    padding-bottom: 50px;
+}
+
+.subscription__title {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 90px;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 30px;
+  
+    border-style:groove;
+    
+}
+
+.subscription-plans {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.subscription__card {
+    background-color: #121212;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform .2s;
+    border-style: groove;
+    padding-top: 30px;
+}
+
+.subscription__card h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.subscription__card h3 {
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.subscription__card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.subscription__card ul li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.subscription__card ul {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.subscription__card:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+.subscription__card a{
+    text-decoration: none;
+    padding: 6px;
+    border: solid white 2px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+}
+.subscription__card a:hover{
+    background-color: black;
+    color: white;
+}
